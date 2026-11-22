@@ -90,6 +90,14 @@ section.contact-sec{padding-top:16px!important}
 .d-ctas{flex-direction:column!important;align-items:stretch!important}
 .d-ctas a,.d-ctas button{justify-content:center!important}
 }
+.nav-info{position:absolute!important;right:192px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:8px;text-decoration:none;color:#6B4F27;z-index:2}
+.nav-info span{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,0.7);border:1px solid rgba(107,79,39,0.35);font-family:'Cormorant Garamond',serif;font-size:15px;font-weight:700;font-style:italic;line-height:1}
+.nav-info em{font-style:normal;font-size:10px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase}
+.nav-links{white-space:nowrap}
+@media (max-width:860px){.nav-info{position:absolute!important;left:12px;right:auto;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:3px;text-decoration:none;color:#6B4F27;z-index:2}
+.nav-info span{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,0.7);border:1px solid rgba(107,79,39,0.35);font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:700;font-style:italic;line-height:1}
+.nav-info em{font-style:normal;font-size:8px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase}}
+@media (min-width:861px) and (max-width:1180px){.nav-info em{display:none}.nav-info{right:186px}}
 .rules-link{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:0 4px;font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#4A4640;text-decoration:none}
 .rules-link:hover{color:#7A5B2E}
 .rules-link i{font-style:normal;text-transform:none;display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;border:1px solid rgba(107,79,39,0.45);color:#6B4F27;font-size:10px;letter-spacing:0;font-family:'Cormorant Garamond',serif;font-weight:700}
@@ -149,13 +157,13 @@ section.contact-sec{padding-top:16px!important}
 <a href="#velemenyek" style="text-decoration: none">Vélemények</a>
 <a href="#kapcsolat" style="text-decoration: none">Kapcsolat</a>
 </div>
+<a href="#iranyelvek" class="nav-info" aria-label="Általános irányelvek"><span>i</span><em>Irányelvek</em></a>
 <a href="#top" class="nav-brand" style="text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 5px; grid-column: 2; text-align: center">
 <span class="nav-logo" style="font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 700; line-height: 1; letter-spacing: 0.015em; color: #1E1E21; white-space: nowrap">Balázs Lilla</span>
 <span class="nav-kicker" style="font-size: 10px; font-weight: 700; line-height: 1; letter-spacing: 0.46em; padding-left: 0.46em; text-transform: uppercase; color: #6B4F27">Kozmetikus</span>
 </a>
 <a href="https://calenza.hu/balazslilla" class="nav-cta" style="grid-column: 3; justify-self: end; text-decoration: none; display: inline-flex; align-items: center; white-space: nowrap; min-height: 46px; padding: 0 24px; background: #1E1E21; color: #FFFFFF; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 0.06em; box-shadow: 0 0 0 1px rgba(255,255,255,0.15) inset, 0 6px 24px rgba(201,174,124,0.55)"><span class="cta-long">Időpontfoglalás</span><span class="cta-short">Foglalás</span></a>
 </nav>
-<div class="rules-row"><a href="#iranyelvek" class="rules-link"><i>i</i>Általános irányelvek</a></div>
 </div>
 
 <div id="top" class="hero-inner" style="position: relative; flex: 1; display: flex; flex-direction: column; justify-content: center; max-width: 1240px; width: 100%; margin: 0 auto; padding: 72px 32px 84px; box-sizing: border-box; gap: 28px">
